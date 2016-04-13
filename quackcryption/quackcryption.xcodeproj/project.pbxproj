@@ -16,6 +16,9 @@
 		2F2001781CBDC4560004E7B3 /* quackcryptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2001771CBDC4560004E7B3 /* quackcryptionUITests.swift */; };
 		2F2001861CBDC8DA0004E7B3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2F2001851CBDC8DA0004E7B3 /* images */; };
 		2F2001881CBDCF0A0004E7B3 /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2001871CBDCF0A0004E7B3 /* CharacterExtension.swift */; };
+		2F20018A1CBDDBFA0004E7B3 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2001891CBDDBFA0004E7B3 /* AES.swift */; };
+		2F20018C1CBDDD0C0004E7B3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20018B1CBDDD0C0004E7B3 /* SettingsController.swift */; };
+		2F20018E1CBDDD260004E7B3 /* QuackEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20018D1CBDDD260004E7B3 /* QuackEncrypt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2F2001791CBDC4560004E7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F2001851CBDC8DA0004E7B3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		2F2001871CBDCF0A0004E7B3 /* CharacterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtension.swift; sourceTree = "<group>"; };
+		2F2001891CBDDBFA0004E7B3 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		2F20018B1CBDDD0C0004E7B3 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		2F20018D1CBDDD260004E7B3 /* QuackEncrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackEncrypt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				2F2001571CBDC4560004E7B3 /* AppDelegate.swift */,
 				2F2001591CBDC4560004E7B3 /* ViewController.swift */,
+				2F20018D1CBDDD260004E7B3 /* QuackEncrypt.swift */,
+				2F2001891CBDDBFA0004E7B3 /* AES.swift */,
+				2F20018B1CBDDD0C0004E7B3 /* SettingsController.swift */,
 				2F2001871CBDCF0A0004E7B3 /* CharacterExtension.swift */,
 				2F20015B1CBDC4560004E7B3 /* Main.storyboard */,
 				2F20015E1CBDC4560004E7B3 /* Assets.xcassets */,
@@ -264,6 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2001881CBDCF0A0004E7B3 /* CharacterExtension.swift in Sources */,
+				2F20018E1CBDDD260004E7B3 /* QuackEncrypt.swift in Sources */,
+				2F20018C1CBDDD0C0004E7B3 /* SettingsController.swift in Sources */,
+				2F20018A1CBDDBFA0004E7B3 /* AES.swift in Sources */,
 				2F20015A1CBDC4560004E7B3 /* ViewController.swift in Sources */,
 				2F2001581CBDC4560004E7B3 /* AppDelegate.swift in Sources */,
 			);
