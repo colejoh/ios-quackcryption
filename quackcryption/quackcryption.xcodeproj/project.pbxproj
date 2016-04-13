@@ -17,8 +17,9 @@
 		2F2001861CBDC8DA0004E7B3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2F2001851CBDC8DA0004E7B3 /* images */; };
 		2F2001881CBDCF0A0004E7B3 /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2001871CBDCF0A0004E7B3 /* CharacterExtension.swift */; };
 		2F20018A1CBDDBFA0004E7B3 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2001891CBDDBFA0004E7B3 /* AES.swift */; };
-		2F20018C1CBDDD0C0004E7B3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20018B1CBDDD0C0004E7B3 /* SettingsController.swift */; };
 		2F20018E1CBDDD260004E7B3 /* QuackEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20018D1CBDDD260004E7B3 /* QuackEncrypt.swift */; };
+		2F2001A61CBDE7F20004E7B3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 2F2001A51CBDE7F20004E7B3 /* Sounds */; };
+		2F2001A81CBDEB760004E7B3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2001A71CBDEB760004E7B3 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +56,9 @@
 		2F2001851CBDC8DA0004E7B3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		2F2001871CBDCF0A0004E7B3 /* CharacterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtension.swift; sourceTree = "<group>"; };
 		2F2001891CBDDBFA0004E7B3 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
-		2F20018B1CBDDD0C0004E7B3 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		2F20018D1CBDDD260004E7B3 /* QuackEncrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackEncrypt.swift; sourceTree = "<group>"; };
+		2F2001A51CBDE7F20004E7B3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		2F2001A71CBDEB760004E7B3 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +109,12 @@
 		2F2001561CBDC4550004E7B3 /* quackcryption */ = {
 			isa = PBXGroup;
 			children = (
+				2F2001A71CBDEB760004E7B3 /* SettingsController.swift */,
 				2F2001571CBDC4560004E7B3 /* AppDelegate.swift */,
 				2F2001591CBDC4560004E7B3 /* ViewController.swift */,
 				2F20018D1CBDDD260004E7B3 /* QuackEncrypt.swift */,
+				2F2001A51CBDE7F20004E7B3 /* Sounds */,
 				2F2001891CBDDBFA0004E7B3 /* AES.swift */,
-				2F20018B1CBDDD0C0004E7B3 /* SettingsController.swift */,
 				2F2001871CBDCF0A0004E7B3 /* CharacterExtension.swift */,
 				2F20015B1CBDC4560004E7B3 /* Main.storyboard */,
 				2F20015E1CBDC4560004E7B3 /* Assets.xcassets */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2001A61CBDE7F20004E7B3 /* Sounds in Resources */,
 				2F2001861CBDC8DA0004E7B3 /* images in Resources */,
 				2F2001621CBDC4560004E7B3 /* LaunchScreen.storyboard in Resources */,
 				2F20015F1CBDC4560004E7B3 /* Assets.xcassets in Resources */,
@@ -272,9 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2001A81CBDEB760004E7B3 /* SettingsController.swift in Sources */,
 				2F2001881CBDCF0A0004E7B3 /* CharacterExtension.swift in Sources */,
 				2F20018E1CBDDD260004E7B3 /* QuackEncrypt.swift in Sources */,
-				2F20018C1CBDDD0C0004E7B3 /* SettingsController.swift in Sources */,
 				2F20018A1CBDDBFA0004E7B3 /* AES.swift in Sources */,
 				2F20015A1CBDC4560004E7B3 /* ViewController.swift in Sources */,
 				2F2001581CBDC4560004E7B3 /* AppDelegate.swift in Sources */,
@@ -502,6 +506,7 @@
 				2F20017E1CBDC4560004E7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F20017F1CBDC4560004E7B3 /* Build configuration list for PBXNativeTarget "quackcryptionTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				2F2001811CBDC4560004E7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F2001821CBDC4560004E7B3 /* Build configuration list for PBXNativeTarget "quackcryptionUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				2F2001841CBDC4560004E7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,3 +1,6 @@
 [submodule "quackcryption/CryptoSwift"]
 	path = quackcryption/CryptoSwift
 	url = https://github.com/krzyzanowskim/CryptoSwift.git
+[submodule "quackcryption/--force"]
+	path = quackcryption/--force
+	url = https://github.com/krzyzanowskim/CryptoSwift.git

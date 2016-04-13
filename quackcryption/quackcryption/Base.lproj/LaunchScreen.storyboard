@@ -17,18 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="duck_locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="teF-a6-0VM">
-                                <rect key="frame" x="150" y="181" width="300" height="238"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QuackCryption" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWD-GK-vvG">
+                                <rect key="frame" x="133" y="272" width="334" height="55"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="238" id="YcO-bW-1qF"/>
-                                    <constraint firstAttribute="width" constant="300" id="hxT-zg-cbM"/>
+                                    <constraint firstAttribute="width" constant="334" id="hbQ-KE-93X"/>
+                                    <constraint firstAttribute="height" constant="55" id="mH1-0a-J1y"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.84705882349999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.22352941179999999" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="teF-a6-0VM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="CSp-GB-mXb"/>
-                            <constraint firstItem="teF-a6-0VM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="X9F-CI-EBQ"/>
+                            <constraint firstItem="vWD-GK-vvG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SfT-j2-Xwa"/>
+                            <constraint firstItem="vWD-GK-vvG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pxz-YR-ogW"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,7 +40,4 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="duck_locked.png" width="1799" height="1430"/>
-    </resources>
 </document>

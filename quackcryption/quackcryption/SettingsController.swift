@@ -6,4 +6,10 @@
 //  Copyright © 2016 Cole Johnson. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class SettingsController: UIViewController {
+
+    @IBOutlet weak var keyTextField: UITextField!
+    @IBOutlet weak var initVectorTextField: UITextField!
+}
